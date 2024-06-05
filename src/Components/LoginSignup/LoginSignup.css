@@ -1,0 +1,120 @@
+.loginsignup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    justify-content: center;
+    box-sizing: border-box;
+    height: 800px;
+    width: 500px;
+    
+    background-color: white;
+}
+.loginsignup p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: -150px;
+
+}
+.signuploginall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 300px;
+    width: 300px;
+}
+.loginsignup-login{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+}
+
+.loginfields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.loginfields input{
+    border:none;
+    background-color: #bcbcbc;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px 25px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.loginsignup-login button{
+    width: 70%;
+    padding: 10px 20px;
+    background: #88c2bb;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.loginsignup-signup{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+
+}
+.signupfields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.signupfields input{
+    border:none;
+    background-color: #bcbcbc;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px 25px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.loginsignup-signup button{
+    width: 70%;
+    padding: 10px 20px;
+    background: #88c2bb;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.loggedinuser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.loggedinuser button{
+    width: 70%;
+    padding: 10px 20px;
+    background: #fcfc;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
